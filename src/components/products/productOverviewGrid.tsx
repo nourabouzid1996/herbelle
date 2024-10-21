@@ -12,6 +12,7 @@ interface Props {
   full_description: string;
   price: number;
   highlights: string[];
+  highlight2: string[];
   details: string;
   rating: number;
   reviews: number;
@@ -25,6 +26,7 @@ export default function ProductOverview({
   full_description,
   price,
   highlights,
+  highlight2,
   details,
   rating,
   reviews,
@@ -49,24 +51,24 @@ export default function ProductOverview({
           <form action="" method="post">
             {(price.length != 0) && 
               <div className="d-flex">
-                <h3 className="font-weight-normal">${price.toLocaleString()}</h3>
+                <h3 className="font-weight-normal">{price.toLocaleString()} MAD </h3>
                 <input className="opacity-0" defaultValue={price} />
               </div>
             }
 
             {(rating != 0) && 
             <>
-              <h3 className="sr-only">Reviews</h3>
-              <div className="d-flex">
+               {/*<h3 className="sr-only">Reviews</h3>
+             <div className="d-flex">
                 <ProductRating rating={4} />
                 <span className="ms-3">{reviews} reviews</span>
-              </div>
+              </div>*/}
             </>
             }
             
-            {(sizes.size != 0) && 
+           {/* {(sizes.size != 0) && 
               <ProductSizes sizes={sizes}/>
-            }
+            }*/}
             <button className="btn btn-dark btn-lg" type="submit">Add to cart</button>
           </form>
         </div>
@@ -75,7 +77,7 @@ export default function ProductOverview({
       <div className="row mt-5">
         <div className="col-12 col-lg-6">
           <h4>Product Description</h4>
-          <p>There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a compliment.</p>
+          <p>{(details)}</p>
           {(highlights.length != 0) && 
            <>
              <h6>Benefits</h6>
@@ -86,10 +88,14 @@ export default function ProductOverview({
               </ul>
            </>
           }
-           {(details.length != 0) && 
+           {(highlights.length != 0) && 
             <>
-              <h6>More about product</h6>
-              <p>{details}</p>
+              <h6>Zom sur nos ingredients</h6>
+              <ul className="text-sm">
+              {highlight2.map(highlight => 
+                <li className="mb-2">{highlight}</li>
+              )}
+              </ul>
             </>
            }
         </div>

@@ -4,6 +4,7 @@ interface Props {
   collection: string;
   classList: string;
   cta: string;
+  product_id: string; // New prop for product ID
 }
 
 
@@ -13,6 +14,7 @@ export default function CardProduct({
   collection,
   classList,
   cta,
+  product_id, // Use product ID prop
 }: Props) {
 
   const classBody = ((cta != null) ? "align-items-end d-flex" : "text-center w-100 pt-8" );
@@ -27,7 +29,8 @@ export default function CardProduct({
               <p className="text-white font-weight-bold mb-1">{collection}</p>
               <h4 className="text-white font-weight-bolder">{title}</h4>
               {/* {(cta != null) &&  */}
-                <a href="#" className="text-white text-sm font-weight-semibold mb-0">See products &#62;</a>  
+                <a href={`/astro-ecommerce/${product_id}`} className="text-white text-sm font-weight-semibold mb-0">
+                See products &#62;</a>  
               {/* } */}
             </div>
           </div>

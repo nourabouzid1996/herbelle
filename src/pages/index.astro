@@ -75,7 +75,7 @@ data.orders.forEach((order) => {
   document.getElementById('heart1').addEventListener("click", toggleHeart);
 </script>
 
-<Layout title="Astro Ecommerce">
+<Layout title="Herbelle">
 	<main>
     <Navbar />
     <div class="container mt-5">
@@ -128,6 +128,7 @@ data.orders.forEach((order) => {
               thumb_src = {category.thumb_src}
               title = {category.title}
               collection = {category.collection}
+              product_id='1'
             />
           </div>
         )}
@@ -144,6 +145,7 @@ data.orders.forEach((order) => {
             cta = ""
             thumb_src = {data.categories[4].thumb_src}
             title = {data.categories[4].title}
+            product_id='1'
           />
         </div>
         <div class="col-md-6">
@@ -153,6 +155,7 @@ data.orders.forEach((order) => {
               cta = ""
               thumb_src = {data.categories[5].thumb_src}
               title = {data.categories[5].title}
+              product_id='1'
             />
           </div>
           <div class="">
@@ -161,6 +164,7 @@ data.orders.forEach((order) => {
               cta = ""
               thumb_src = {data.categories[6].thumb_src}
               title = {data.categories[6].title}
+              product_id='1'
             />
           </div>
         </div>
@@ -178,6 +182,7 @@ data.orders.forEach((order) => {
           full_description={data.products[0].full_description}
           price={data.products[0].price}
           highlights={data.products[0].highlights}
+          highlight2={data.products[0].highlight2}
           details={data.products[0].details}
           rating={data.products[0].rating}
           reviews={data.products[0].reviews}
@@ -325,7 +330,7 @@ data.orders.forEach((order) => {
         <p class="text-body">With fading background image and testimonials</p>
         <PromoSectionLarge 
           title={data.products[0].title}
-          full_description="The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?"  
+          full_description="The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. "  
           pageHeaderBgImg={"https://images.unsplash.com/photo-1525904097878-94fb15835963?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"} 
           pageHeaderMinVh="50vh"
           pageHeaderRadius="1rem"

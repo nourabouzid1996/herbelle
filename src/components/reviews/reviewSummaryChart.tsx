@@ -31,7 +31,7 @@ export default function ReviewSummaryChart({
 
   return (
     <>
-    <div className="mx-auto text-center w-md-60 mb-5">
+    {/* <div className="mx-auto text-center w-md-60 mb-5">
       <h3>Our Customer’s Opinion</h3>
       <p>Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible to get a pure thought out. </p>
     </div>
@@ -60,7 +60,7 @@ export default function ReviewSummaryChart({
         </div>
       </div>
     </div>
-
+*/}
     </>
     
   );

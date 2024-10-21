@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../components/navbar';
+import CardProduct from '../components/products/cardProduct';
+import ProductOverviewGrid from '../components/products/productOverviewGrid';
+import StoreDoubleColumn from '../components/store/storeDoubleColumn';
+import ReviewSummaryChart from '../components/reviews/reviewSummaryChart';
+
+// filter reviews with ID 01
+// Get the product ID from the URL
+const { id } = Astro.params;
+const product = data.products[id];
+let productReviews = data.reviews.filter(x => x.productID == "01");
+
+export async function getStaticPaths() {
+  // Generate paths for each product in the data
+  return data.products.map((_, index) => ({
+    params: { id: index.toString() }, // Use the index as the product ID
+  }));
+}
+---
+<Layout title="Product Page">
+	<main>
+    <Navbar />
+    <div class="container mt-5">
+      <ProductOverviewGrid  
+        colors={data.products[id].colors}
+        images={data.products[id].images}
+        title={data.products[id].title}
+        full_description={data.products[id].full_description}
+        price={data.products[id].price}
+        highlights={data.products[id].highlights}
+        highlight2={data.products[id].highlight2}
+        details={data.products[id].details}
+        rating={data.products[id].rating}
+        reviews={data.products[id].reviews}
+        sizes={data.products[id].sizes}
+      />    
+      <div class="my-5">
+        <ReviewSummaryChart reviews = {productReviews}/>
+      </div>
+     <hr class="dark horizontal my-5" />
+      <StoreDoubleColumn />
+    </div>
+  </main>
+
+</Layout>

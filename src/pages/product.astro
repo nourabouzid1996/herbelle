@@ -23,6 +23,7 @@ let productReviews = data.reviews.filter(x => x.productID == "01");
         full_description={data.products[0].full_description}
         price={data.products[0].price}
         highlights={data.products[0].highlights}
+        highlight2={data.products[0].highlight2}
         details={data.products[0].details}
         rating={data.products[0].rating}
         reviews={data.products[0].reviews}
@@ -33,7 +34,7 @@ let productReviews = data.reviews.filter(x => x.productID == "01");
         <ReviewSummaryChart reviews = {productReviews}/>
       </div>
 
-      <div class="row">
+       {/* <div class="row">
         <h5 class="mb-4">Customers also purchased</h5>
         {data.products.map(product => 
           <div class="col-md-6 col-lg-3">
@@ -48,7 +49,8 @@ let productReviews = data.reviews.filter(x => x.productID == "01");
           </div>
         )}        
       </div>
-      <hr class="dark horizontal my-5" />
+*/}
+     <hr class="dark horizontal my-5" />
       <StoreDoubleColumn />
     </div>
   </main>

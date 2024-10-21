@@ -6,7 +6,7 @@
       "thumb_alt": "watch-image",
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "src": "/images/category1.jpg",
           "alt": "first_image"
         },
         {
@@ -28,15 +28,23 @@
         "blue", 
         "green"
       ],
-      "title": "Basic Starter Pack",
-      "price": 399,
+      "title": "Rouge Beetroot",
+      "price": 85,
       "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out.",
-      "details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+      "full_description": "Notre rouge à lèvres *Beetroot* offre une teinte riche et vibrante, tout en prenant soin de vos lèvres grâce à sa formule naturelle. Composé de beurre de cacao nourrissant et d'huiles végétales telles que l'huile de graine de tournesol et de ricin, il hydrate en profondeur. Enrichi en cires naturelles comme la cire de candelilla et de carnauba, il assure une texture lisse et confortable. Un soin coloré qui allie beauté et bien-être pour vos lèvres.",
+      "details": "Découvrez Beetroot, notre rouge à lèvres naturel qui sublime vos lèvres tout en prenant soin de leur bien-être. Formulé sans dioxyde de titane, sans conservateurs, et sans produits chimiques, il est composé d’ingrédients 100% naturels tels que le beurre de cacao nourrissant, l'huile de tournesol et de ricin pour une hydratation en profondeur. Grâce aux cires végétales comme la candelilla et la carnauba, sa texture est douce et agréable, offrant une couleur riche et longue tenue. Offrez-vous une beauté authentique, pure, et sans compromis avec Beetroot.",
       "highlights": [
-        "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-        "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-        "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+        "Pas de dioxyde de titane",
+        "Formule saine et hydratante pour une beauté sans compromis",
+        "Aucun produit chimique nocif",
+        "100% naturel et respectueux de vos lèvres"
+      ],
+      "highlight2": [
+        "Huile végétale de Jojoba - Nourrissante, protectrice et cicatrisante, elle pénètre en profondeur sans laisser de film gras.",
+        "Huile végétale de Ricin BIO - Texture riche et épaisse, idéale pour disperser les pigments, avec des propriétés cicatrisantes et adoucissantes.",
+        "Cire de Candelilla - Filmogène et durcissante, facilite le démoulage des rouges à lèvres et améliore la tenue des mascaras.",
+        "Cire de Sumac de Japon - Assure une longue tenue et une parfaite adhérence pour les rouges à lèvres et crayons cosmétiques.",
+        "Vitamine E - Antioxydant naturel qui préserve les huiles et beurres végétaux du rancissement."
       ],
       "features": [
         "Multiple strap configuration",
@@ -61,9 +69,9 @@
         "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
       },
       "featuresDetails": {
-        "Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-        "Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-        "Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+        "Origin": "Pas de dioxyde de titane",
+        "Material":"Formule saine et hydratante pour une beauté sans compromis",
+        "Dimensions": "0 produit chimique nocif"
       },
       "stock": true
     },
@@ -73,11 +81,11 @@
       "thumb_alt": "watch-image",
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+          "src": "/images/category2.jpg",
           "alt": "first_image"
         },
         {
-          "src": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+          "src": "/images/category2.jpg",
           "alt": "second_image"
         },
         {
@@ -91,12 +99,12 @@
       ],
       "color": "Black",
       "colors": ["black", "green", "white"],
-      "title": "Pink Blouse",
+      "title": "Rouge Grenadine",
       "price": 1490,
       "rating": 5,
       "reviews": 117,
       "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
+      "full_description": "Notre rouge à lèvres Grenadine, une teinte naturellement éclatante qui sublime vos lèvres d'un rouge profond et vibrant. Sa formule enrichie en beurre de cacao et huiles végétales (tournesol et ricin) offre une hydratation intense et durable. Grâce aux cires naturelles de candelilla et de carnauba, vos lèvres restent douces et parfaitement lisses. Un véritable soin alliant couleur éclatante et bien-être naturel, pour des lèvres sublimes et nourries toute la journée.",
       "features": [
         "Multiple strap configuration",
         "Water Resistant",
@@ -133,7 +141,7 @@
       "thumb_alt": "iMac-image",
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1567790350645-dbc1486a89c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "src": "/images/category3.jpg",
           "alt": "first_image"
         },
         {
@@ -153,6 +161,7 @@
       "colors": ["SpaceGray"],
       "title": "Premium Suit",
       "description": "There’s nothing I really wanted to do in life that I wasn’t able to get good at.",
+      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
       "price": 1399,
       "size": "Large",
       "sizes": {
@@ -174,6 +183,24 @@
       "id": "04",
       "thumb_src": "/images/suit-5.jpg",
       "thumb_alt": "iPhone_thumb",
+      "images": [
+        {
+          "src": "/images/category4.jpg",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1593088177922-aa1c5055c7b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "alt": "second_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1635594202056-9ea3b497e5c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1593085260707-5377ba37f868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+          "alt": "fourth_image"
+        }
+      ],
       "color": "Blue",
       "title": "iPhone",
       "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
@@ -192,28 +219,28 @@
   "categories": [
     {
       "thumb_src": "/images/category1.jpg",
-      "title": "Silk Dresses",
-      "collection": "Pre-fall"
+      "title": "Rouge Beetroot",
+      "collection": ""
     },
     {
       "thumb_src": "/images/category2.jpg",
-      "title": "Suits",
-      "collection": "Designers"
+      "title": "Rouge Grenadine",
+      "collection": ""
     },
     {
       "thumb_src": "/images/category3.jpg",
-      "title": "Festival",
-      "collection": "Summer"
+      "title": "Rouge Cerise",
+      "collection": ""
     },
     {
       "thumb_src": "/images/category4.jpg",
-      "title": "Showroom",
-      "collection": "Sale"
+      "title": "Rouge Violet",
+      "collection": ""
     },
     {
       "thumb_src": "/images/product10.jpg",
       "title": "Living Sofas",
-      "collection": "Interior Design"
+      "collection": ""
     },
     {
       "thumb_src": "/images/category5.jpg",
